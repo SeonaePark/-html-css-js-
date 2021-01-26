@@ -1,0 +1,287 @@
+body{
+  background-image: url(https://i.postimg.cc/sx8dQSGb/backimg.jpg);
+  background-size: cover;
+}
+#container{
+  max-width: 68rem;
+  margin: 0 auto;
+}
+#header{
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 50px;
+}
+#header .person{
+    border-radius: 100%;
+    display: inline-block;
+    padding: 8px;
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 20px;
+}
+#header .person img{
+  border-radius: 100%;
+  display: block;
+}
+#header h2{
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.4);
+  font-weight: 200;
+  margin-bottom: 40px;
+  line-height: 32px;
+}
+#header h2 strong{
+  color: rgba(255,255,255,0.9);
+  font-weight: 200;
+}
+#header h2 a{
+  color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,0.4);
+}
+#header ul.icon li{
+  display: inline-block;
+  margin-right: 16px;
+}
+#header ul.icon img{
+  width: 35px; height: 35px;
+  border-radius: 35%;
+  display: block;
+}
+#header ul.icon img:hover{
+  box-shadow: 0 0 7px rgba(255,255,255,0.7);
+}
+#section .article{
+  display: flex;
+}
+#section .article a.mail{
+  margin:0;
+}
+#section .article>div{
+  flex-grow: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#section .article>.mail{
+  margin:0;
+}
+#section .article img{
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#section .article a{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+#section .article .btn:hover{
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+#section .article h3{
+  border-left: 1px solid rgba(255,255,255,0.3);
+  border-right: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding:9px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5);
+  font-size: 13px;
+  font-weight: 200;
+}
+#section .article h2>a{
+  margin: 0;
+  color: orange;
+  text-align: right;
+  font-size: 25px;
+}
+
+#section .article .pop_box1,.pop_box2,.pop_box3,.pop_box4,.pop_box5,.pop_box6,.pop_box7{
+  display:none;
+  position:fixed;
+  top:0;left:0;
+  width:100%;height:100%;
+  z-index:100;
+}
+/*1단계*/
+#section .article .pop_box1 div.pop_bg1{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box1 div.pop_contents1{
+  position:absolute;
+  top:50%;left:50%;
+  width:300px;height:474px;
+  padding:30px;
+}
+/*2단계*/
+#section .article .pop_box2 div.pop_bg2{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box2 div.pop_contents2{
+  position:absolute;
+  top:50%;left:50%;
+  width:550px;height:390px;
+  padding:30px;
+}
+/*3단계*/
+#section .article .pop_box3 div.pop_bg3{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box3 div.pop_contents3{
+  position:absolute;
+  top:50%;left:50%;
+  width:300px;height:473px;
+  padding:30px;
+}
+/*4단계*/
+#section .article .pop_box4 div.pop_bg4{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box4 div.pop_contents4{
+  position:absolute;
+  top:50%;left:50%;
+  width:300px;height:387px;
+  padding:30px;
+}
+/*5단계*/
+#section .article .pop_box5 div.pop_bg5{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box5 div.pop_contents5{
+  position:absolute;
+  top:50%;left:50%;
+  width:500px;height:413px;
+  padding:30px;
+}
+/*6단계*/
+#section .article .pop_box6 div.pop_bg6{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box6 div.pop_contents6{
+  position:absolute;
+  top:50%;left:50%;
+  width:500px;height:383px;
+  padding:30px;
+}
+/*7단계*/
+#section .article .pop_box7 div.pop_bg7{
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:100%;
+  background:#000;
+  opacity:.6;
+  filter:alpha(opacity=60);
+}
+#section .article .pop_box7 div.pop_contents7{
+  position:absolute;
+  top:50%;left:50%;
+  width:300px;height:476px;
+  padding:30px;
+}
+#footer{
+  text-align: center;
+}
+#footer:before{
+  content: '';
+  display: block;
+  width: 200px;
+  margin: 50px auto;
+  border-top: solid 1px rgba(255,255,255,0.5);
+}
+#footer p{
+  font-size: 1rem;
+  color: rgba(255,255,255,0.7);
+  font-weight: 200;
+  margin-bottom: 60px;
+  line-height: 32px;
+}
+#footer p a{
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,0.7);
+}
+@media(max-width:700px){
+  #section .article{
+    display: block;
+  }
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
